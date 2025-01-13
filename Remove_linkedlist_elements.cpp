@@ -20,7 +20,7 @@ public:
             }
             q = q->next; 
         }
-
+delete q;
         return head;
     }
 };
